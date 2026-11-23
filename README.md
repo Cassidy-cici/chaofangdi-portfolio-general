@@ -1,6 +1,6 @@
 # 晁芳蒂 · 小屋作品集
 
-https://cassidy-cici.github.io/chaofangdi-portfolio/
+https://cassidy-cici.github.io/chaofangdi-portfolio-general/
 
 2026-11-10：r66。保留已批准的小屋外景、导航、作品内容与最新版简历。
 
