@@ -150,7 +150,7 @@ async function initialize() {
     controls.enablePan = false;
     controls.update();
     const labelContours = await loadSceneJson('./reference/room-name-contours.json?v=garden-r34-cafe-label');
-    const destinations = await loadSceneJson('./room-destinations.json?v=garden-r34-cafe-label');
+    const destinations = await loadSceneJson('./room-destinations.json?v=general-copy-1');
     const interactions = createInteractiveObjects({ model, scene, camera, canvas: renderer.domElement, composer, render: renderScene, destinations });
     const navigation = createRoomNavigation({ interactions, labelContours, model, garden: garden.root, ground, scene, camera, controls, canvas: renderer.domElement, spec, gardenEnabled, gardenConfig, render: renderScene, initialAngle: angle });
     updateRoomOverlay = navigation.updateOverlay;
